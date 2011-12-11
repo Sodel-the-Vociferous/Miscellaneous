@@ -1,5 +1,5 @@
 #!/bin/sh
-# 2011, Daniel Ralston
+# 2011, Daniel Ralston <Wubbulous@gmail.com>
 
 # My brother and his friends keep making movies on our Sony digital
 # camera. I wish we had a real digital video camcorder, but such is

@@ -8,8 +8,6 @@
 # synchronization. MEncoder converts the footage into a format that
 # WMM understands, for great justice!
 
-bak=".bak"
-
 for filename in $@
 do
     # Hehehe, I'm sure there's a way I'm *supposed* to do this, but I
@@ -22,7 +20,9 @@ do
     if [ -e $new_filename ]
     then
         # Yes, I know I should check to see if the .bak file already
-        # exists, boo hoo, et cetera...
+        # exists, boo hoo, et cetera... Also, this way of doing string
+        # concatenation is dumb.
+	bak=".bak"
         mv "$new_filename" "$new_filename$bak"
     fi
 

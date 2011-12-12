@@ -19,7 +19,7 @@
 alias echo="echo -n"
 
 main () {
-# Read 
+# Read commands from the user, and echo the appropriate keypresses.
         while true
         do
             read COMMAND
@@ -45,4 +45,6 @@ main () {
         done
 }
 
+# Pipe main()'s output to mplayer; discard mplayer's standard and
+# error output.
 main | mplayer "$@" > /dev/null 2>&1

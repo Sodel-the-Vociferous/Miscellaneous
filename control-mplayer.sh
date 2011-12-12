@@ -1,9 +1,8 @@
 #!/bin/sh
 
 # I discovered this while fiddling around with the terminal today! Of
-# course, in retrospect, it's obvious. This, of course, is just a
-# proof of concept, to show you the sort of thing you can do with
-# unix pipes.
+# course, in retrospect, it's obvious. This is just a proof of
+# concept, to show you the sort of thing you can do with unix pipes.
 
 # Using this same principle, you could very easily write a simple
 # graphical front-end for mplayer, or just about any application that
